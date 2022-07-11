@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha página</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+
+
+<style>
+    body {
+        background-color: #212121 ;
+        color: black;
+    }
+
+    .dark-2 {
+        background-color: #424242;
+    }
+
+    .header-footer {
+        background-color: #f1ba1a !important;
+    }
+</style>
+
+<body>
+
+    <div class="navbar-fixed">
+        <nav class="header-footer">
+            <div class="nav-wrapper">
+                <img src="img/thaleslogo2.png " widght="220px" height="80px">
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li> <a class="modal-trigger" href="#quem_somos"><i class="left material-icons">work</i>Quem
+                            somos</a></li>
+                    <li> <a class="modal-trigger" href="#parceiros"><i
+                                class="left material-icons">supervisor_account</i>Parceiros</a></li>
+                    <li> <a class="modal-trigger" href="#servicos"><i
+                                class="left material-icons">important_devices</i>Servicos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <div class="card-panel dark-2">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <div class="slider">
+                            <ul class="slides">
+                                <li>
+                                    <img src="img/trabalho 2.jpg">
+                                    <!-- adicione sua imagem aqui -->
+                                    <div class="caption center-align">
+                                        <h3>Marketing facil e pratico!</h3>
+                                        <h5 class="light grey-text text-lighten-3"> Esse e nosso slogan</h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/trabalho1.jpg">
+                                    <!-- adicione sua imagem aqui -->
+                                    <div class="caption left-align">
+                                        <h3>Maturidade e diversidade</h3>
+                                        <h5 class="light grey-text text-lighten-3">Sempre com boas ideias !</h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/pc.jpg">
+                                    <!-- adicione sua imagem aqui -->
+                                    <div class="caption right-align">
+                                        <h3>Time de competencia !</h3>
+                                        <h5 class="light grey-text text-lighten-3">Exelencia na</h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/paisagem.jpg">
+                                    <!-- adicione sua imagem aqui -->
+                                    <div class="caption center-align">
+                                        <h3>Um mundo de possibilidades pra voce?</h3>
+                                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MODAL QUEM SOMOS -->
+                <div id="quem_somos" class="modal modal-fixed-footer">
+                    <div class="modal-content">
+                        <h5>Quem Somos</h5>
+                        <div class="row">
+                            <div class="col s12 m12 l12">
+                                PENSAR EM COMPONENTE PARA EXIBIR QUEM SOMOS
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer ">
+                        <button class="btn modal-close red accent-4"> Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MODAL PARCEIROS -->
+        <div id="parceiros" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h5>Parceiros</h5>
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        PENSAR EM COMPONENTE PARA EXIBIR parceiros
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn  modal-close red accent-4 "> Fechar</button>
+            </div>
+        </div>
+
+
+        <!-- MODAL SERVIÇOS -->
+        <div id="servicos" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h5>Serviços</h5>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/mercadl.png">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/transferir.png" width="120px" height="80px">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/transferir2.png" width="160px" height="40px">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer right-align">
+                <button class=" btn modal-close red accent-4 ">Fechar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer header-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12 m12">
+                    <h5 class="white-text">LS marketing Digital</h5>
+                    <span class="grey-text text-lighten-4">"Já não é mais suficiente satisfazer seus clientes. Você deve
+                        encantá-los"</span>
+                    <div class="right-align"><small><strong> Philip Kotler</strong></small></div>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Fale conosco</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" target="_BLANK"
+                                href="https://api.whatsapp.com/send?phone=31992357061&text=Hi%20There!"><i
+                                    class="fa-brands fa-whatsapp"></i> 7070-7070</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-facebook"></i> Empresa
+                                facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-linkedin"></i> Empresa
+                                Linkedin</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-instagram"></i> Empresa
+                                instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; LS marketing Digital
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            M.AutoInit();
+
+            $('.slider').slider({
+                interval: 3000
+            });
+        })
+    </script>
+</body>
+
+
+</html>
